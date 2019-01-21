@@ -1,0 +1,50 @@
+{{ define "main" }}
+
+<!-- Hero Image -->
+</section>
+  {{ partial "hero-image" . }}
+<section class="container">
+
+<section class="row mt-4 py-2">
+  <div class="col-md-4 my-1">
+    <h4>
+      About Us
+    </h4>
+    <p>
+      NewCo Foundation is a private 501 (c)(3) non-profit driven by the incubation of ideas, products, services,
+      and companies
+      founded by or employing students.
+    </p>
+  </div>
+  <div class="col-md-4 my-1">
+    <h4>
+      Our Work
+    </h4>
+    <p>
+      We operate on and off campus programs that provide employment opportunities for high school and college
+      students to make
+      meaningful contributions to startup companies.
+    </p>
+  </div>
+  <div class="col-md-4 my-1">
+    <h4>
+      Our Impact
+    </h4>
+    <p>
+      We accelerate readiness for college and careers by means of an entrepreneurial apprenticeship model. We
+      provide student internships,
+      earned scholarships, school equipment and supplies.
+    </p>
+  </div>
+</section>
+
+<!-- Operational Programs -->
+{{ partial "operational-programs" . }}
+
+<!-- Supported Programs -->
+{{ partial "supported-programs" . }}
+
+<!-- Partners -->
+{{ partial "partners" . }}
+
+{{ end }}
