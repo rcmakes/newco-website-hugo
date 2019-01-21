@@ -1,9 +1,12 @@
 {{ define "main" }}
 
 <!-- Hero Image -->
-</section>
+
+<!-- the below closing div turns off the bootstrap container so the hero image can go full width -->
+</div>
   {{ partial "hero-image" . }}
-<section class="container">
+<div class="container">
+<!-- this above opening div turns on the bootstrap container so the content is constrained horizontally -->
 
 <section class="row mt-4 py-2">
   <div class="col-md-4 my-1">
