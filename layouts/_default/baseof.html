@@ -29,10 +29,11 @@
     <!-- Navbar -->
     {{ partial "navbar" . }}
 
-  
-    <!-- Page Content -->
-    {{ block "main" . }}
-    {{ end }}
+    <section style="margin-top: 58px">
+      <!-- Page Content -->
+      {{ block "main" . }}
+      {{ end }}
+    </section> 
 
     <!-- Footer  -->
     {{ partial "footer" . }}
