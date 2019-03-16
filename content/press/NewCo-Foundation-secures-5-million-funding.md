@@ -7,6 +7,9 @@ subheading: "Founders Go All-In to Promote Student Entrepreneurship"
 location: "Camarillo, CA"
 
 draft: false
+
+aliases:
+    - /pr1.html/
 ---
 
 [NewCo Foundation](https://www.newco.foundation/), a Ventura County non-profit organization focused on student career education and startup company activities has received a five-million-dollar endowment from its founders, Dave and Dawn Gross. NewCo Foundation started with the RCMakes program at Rancho Campana High School. It is evolving and growing with the addition of a coding bootcamp for students and a seed fund to make program related investments.  The endowment will be used to fund ongoing operational programs, support other student career education and startup company programs in the County, and to begin making program related investments in promising startups.
